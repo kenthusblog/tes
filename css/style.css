@@ -1,0 +1,89 @@
+body {
+	background-color: #f7f7f7;
+	font-family: 'Quicksand', sans-serif;
+}
+@font-face {
+	font-family: "lpmq";
+	src: url(/css/LPMQ-IsepMisbah.ttf) format("opentype");
+	font-display: swap;
+}
+.font-arabic{
+	font-family: "lpmq", Arial, sans-serif;
+	line-height: 2;
+}
+
+#preloader {
+	padding: 50%;
+}
+
+/* custom-shadow */
+.custom-shadow {
+	box-shadow: 1px 0px 5px  rgb(173, 173, 173);
+}
+
+/* nav-custom */
+.custom-nav {
+	height: 90px;
+	padding-top:10px;
+	display: flex;
+	justify-content: center;
+	color: black;
+	box-shadow: 1px 0px 10px #cfdac8;
+}
+.sidenav-trigger {
+	padding-top:4px;
+	color: black;
+}
+.btn-white {
+	background-color: white;
+	color: black;
+}
+.custom-nav .container .custom-heading {
+	color: black;
+}
+
+.custom-nav .container .custom-img {
+	width:35px;
+	height: 35px;
+	margin-right: 2px;
+	margin-bottom: -7px;
+}
+
+/* content */
+.custom-content {
+	min-height: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* card */
+.custom-card-detail {
+	border-radius: 10px;
+}
+.custom-card {
+	border-radius: 10px;
+}
+.custom-card a{
+	text-decoration: none;
+	/* font-weight: bold; */
+	color: rgb(78, 77, 77);
+}
+.custom-card:hover {
+	background-color: #dfdddd;
+	transition: 1s;
+}
+
+/* foooter */
+.page-footer{
+	background-color: #ffffff;
+	padding: 10px 0px;
+	text-align: center;
+}
+.page-footer .custom-footer {
+	padding: 30px 0px;
+}
+.page-footer .custom-footer .custom-credit {
+	margin: 2px;
+	color: #374045;
+}
